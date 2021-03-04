@@ -125,3 +125,11 @@ text-align: center;
     display: flex;
     justify-content: center;
 }
+.subscribe{
+    background-image: url(./assets/backgrounds/subscribe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+}
