@@ -42,7 +42,16 @@ color: white;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100px;
-    width: 100px;
     display: flex;
     align-items: center;
+}
+#lunch{
+    background-image: url(./assets/foodtop/lunch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    display: flex;
+    width: 100px;
+    align-items: center;
+    opacity: 0.5;
 }
