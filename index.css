@@ -2,6 +2,7 @@
 body{
     margin: 0px ;
     font-family: sans-serif;
+
 }
 #landing{
     background-image: url(./assets/backgrounds/landing.jpg);
@@ -24,12 +25,12 @@ body{
 }
 .foodRange{
     display: flex;
-    width: 100%;
-    justify-content: space-around;
+    width:100%;
+     /* justify-content:; */
     height:100px;
     box-sizing: border-box;
-    align-items: center;
-    margin: 0px;
+    align-items: stretch;
+   
 }
 .pTime{
 background-color: #ff5c33;
@@ -69,21 +70,58 @@ color: white;
 }
 #fFood{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     width: 70%;
     text-align: center;
     box-sizing: border-box;
     margin: 50px auto;
    
 }
-
+#fastfoodpics ul{
+    border: 1px solid grey;
+    box-sizing: border-box;
+    padding: 5px;
+   box-shadow: 3px 3px 5px grey;
+   align-items: center;
+}
 
 #fastfoodpics > ul li{
     display: flex;
     list-style:none;
     margin-right: 20px;
+   
 }
 #delicious > p{
     text-align: left;
 } 
+#overralDrink{
+    display: flex;
+    border: 1px solid aqua;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+}
+#drinkpics{
+    display: flex;
+}
+#foodsBg{
+    background-image: url(./assets/backgrounds/foodsBg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    color: white;
+}
+#foodsBg > div ul> li{
+    display: inline-block;
+}
 
+#customerSection  > ul li{
+list-style: none;
+display: inline-block;
+text-align: center;
+}
+.customerAbout{
+    display: flex;
+    justify-content: center;
+}
