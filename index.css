@@ -54,6 +54,7 @@ color: white;
     width: 100px;
     align-items: center;
     opacity: 0.5;
+    justify-content: center;
 }
 #dinner{
     background-image: url(./assets/foodtop/dinner.jpg);
@@ -63,6 +64,29 @@ color: white;
     display: flex;
     width: 100px;
     align-items: center;
+    justify-content: center;
 
 }
+#fFood{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    text-align: center;
+    margin-top: 20px;
+    box-sizing: border-box;
+    margin: auto;
+
+    
+}
+#fastFoodpics{
+    box-shadow: 5px 5px 4px grey;
+}
+#fastfoodpics > ul li{
+    display: flex;
+    list-style:none;
+    margin-right: 20px;
+}
+#delicious > p{
+    text-align: left;
+} 
 
