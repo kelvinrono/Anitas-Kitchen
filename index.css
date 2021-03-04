@@ -27,5 +27,12 @@ body{
     justify-content: space-around;
     height:200px;
     text-align:center;
-    box-sizing: border;
+    box-sizing: border-box;
+    margin: 0px;
+}
+.pTime{
+background-color: #ff5c33;
+height:50px;
+align-items: center;
+width: 100%;
 }
