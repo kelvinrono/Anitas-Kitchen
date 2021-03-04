@@ -21,3 +21,11 @@ body{
     font-size: 20px;
 
 }
+.foodRange{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height:200px;
+    text-align:center;
+    box-sizing: border;
+}
