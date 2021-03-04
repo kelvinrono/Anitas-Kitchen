@@ -72,15 +72,12 @@ color: white;
     justify-content: center;
     width: 70%;
     text-align: center;
-    margin-top: 20px;
     box-sizing: border-box;
-    margin: auto;
+    margin: 50px auto;
+   
+}
 
-    
-}
-#fastFoodpics{
-    box-shadow: 5px 5px 4px grey;
-}
+
 #fastfoodpics > ul li{
     display: flex;
     list-style:none;
