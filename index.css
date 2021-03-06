@@ -3,7 +3,7 @@ body{
     
     font-family: sans-serif;
     background-color: honeydew;
-    width: 90%;
+    width: 100%;
     margin: auto;
 
 }
@@ -64,6 +64,7 @@ height: 50px;
     display: flex;
     align-items: center;
     width: 25%;
+    justify-content: center;
 }
 #lunch{
     background-image: url(./assets/foodtop/lunch.jpg);
@@ -111,6 +112,11 @@ height: 50px;
    box-shadow:0 0 5px #000;
    align-items: center;
 }
+.fastFoodli{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+ }
 
 #fastfoodpics > ul li{
     display: flex;
@@ -161,13 +167,15 @@ height: 50px;
     height: 100%;
     margin-top: 10px;
     align-items: center;
+    flex-direction: column;
 }
+
 #foodsBg > div ul> li{
-    
     color: black;
-    margin-top: 5%;
-    
+    line-height: 20px;
+    background-color: 
 }
+
 #foodsBg >div {
 width: 90%;
 background-color: white;
@@ -175,25 +183,39 @@ margin: 5%;
 height:90%;
 margin-bottom: 5%;
 }
-
+#submenu{
+    display: flex;
+    list-style: none;
+    width:100%;
+    justify-content: space-around;
+}
+#p1, #p2, #p3{
+   width:30%
+}
+#fastFoodli >ul{
+    background-color:blue;
+}
 #customerSection  > ul li{
 list-style: none;
 display: inline-block;
 flex:1;
+text-align: left;
 
 }
 .customerAbout{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     box-shadow: 0 0 3px gray;
     width: 90%;
     margin: 10px auto;
-    padding: 0px 2%;
+    padding: 2px 2%;
     
 }
 .about{
-    border-left: 1p solid gray;
+ 
+    text-align:right;
     width:100%;
+    border
 }
 .customerAbout  h4{
     color:tomato;
