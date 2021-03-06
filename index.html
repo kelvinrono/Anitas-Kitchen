@@ -7,15 +7,16 @@
     <body>
         <div id="landing">
             <div id="menu"> <img src="./assets/logoBig.png" height="150" width="150"></div>
-            <div id="header"><p> We Provide The Best Food</p>
+            <div id="header">
+                <p> We Provide The Best Food</p>
                 <h3><strong>the Right Price</strong> </h3>
             </div>
         </div>
+        
         <div class="foodRange">
             <div class="time"> 
-                <p class ="hTime">Happy Time</p>
-                <p class="pTime">Party Time</p>
-            </div>
+                <span class ="hTime"><p>Happy Time</p></span>
+               <span class="pTime"> <p>Party Time</p></span>            </div>
 
             <div id="breakfast" > Breakfast</div>
             <div id="lunch">Lunch</div>
@@ -25,8 +26,8 @@
         <div id="fFood">
             <div id ="fastfoodpics">
                 <ul>
-                    <li> <img src="assets/fastFood1.jpg" height="150" width="360"></li>
-                    <li> <img src="assets/fastFood2.jpg" height="150" width="360"></li>
+                    <li> <img src="assets/fastFood1.jpg" height="150" width="300"></li>
+                    <li> <img src="assets/fastFood2.jpg" height="150" width="300"></li>
                 </ul>
             </div>
             <div id="delicious">
@@ -34,7 +35,7 @@
                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Rem sequi quia deleniti, id quis voluptates, consequatur exercitationem 
                       aut itaque illo enim repudiandae iste porro magnam delectus architecto hic, nobis praesentium?</p>
-                      <p id="gallery1">view galleru</p>
+                      <p class="gallery1">view gallery</p>
             </div>
         </div>
         <div id="overralDrink">
@@ -44,16 +45,18 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam tempora vero ipsum alias 
                     error enim beatae natus laudantium minima? Illo necessitatibus similique rerum! Ipsa dolore 
                     eligendi similique laborum recusandae exercitationem.</p>
+                    <p class="gallery1">view gallery</p>
             </div>
             <div id="drinkpics">
+                
                 <img src="assets/drink1.jpg" height ="300px" width ="150px" >
                 <img src="assets/drink2.jpg" height ="300px" width ="150px">
 
             </div>
         </div>
         <div id="foodsBg">
-            <div><ul>
-                <li>Fast Food
+            <div><ul class ="fastFoodli">
+                <li>Fast Food</li>
                     <!-- <ul>
                         <li id="chickenBurger">Chicken Burger</li>
                         <li id="beefBurger"> Beef Burger</li>
@@ -76,8 +79,8 @@
                     <li id="p3"> <img src="./assets/customers/p3.png"></li>
                 </ul>
             </div>
-            <div>
-                <h3>About Menu</h3>
+            <div class="about">
+                <h4>About Menu</h4>
                 <p>We are a little team of 7 members. Ut wisi enim ad minim veniam, quis nos trudexer ci tation ullamcorper suscipit lob ortis nisl ut ex ea commodo
                     conse quat. Disau temvel enum iriure dolor in </p>
             </div>
@@ -86,22 +89,22 @@
             <div>
                 <p>Get our daily food delivered to your email</p>
                 <div class="mailSub">
-                    <p class="mail"> your email</p>
-                    <p class="subButton">subscribe</p>
+                    <form>
+                        <input type="text" placeholder=" Your Email" id="email" >
+                        <input type="button" value="button" id ="button">
+                    </form>
                     </div>
             </div>
 
         </div>
         <footer>
-           <p></p><img src="./assets/footerlogos/logo_white.png"> MENU</p>
+           <p class="footerMenu"><img src="./assets/footerlogos/logo_white.png"> MENU</p>
            <p>Thats What We are</p>
-           <p>
-               <ul>
+             <ul>
                    <li> <img src="./assets/footerlogos/facebook.png"></li>
                    <li> <img src="./assets/footerlogos/twitter.png"></li>
                    <li> <img src="./assets/footerlogos/pinterest.png"></li> 
                 </ul>
-            </p>
             <p>2016 Menu Resturant</p>
         </footer>
     </body>
