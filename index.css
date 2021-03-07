@@ -187,9 +187,14 @@ margin-bottom: 5%;
     width:100%;
     justify-content: space-around;
 }
-nav li{
-background-color: teal;
+nav ul{
+background-color:gray;
+margin-top: 0px;
+height: 35px;
 
+}
+nav ul li{
+    padding:5px;
 }
 #p1, #p2, #p3{
    width:30%
