@@ -29,7 +29,6 @@ body{
 .foodRange{
     display: flex;
     width:100%;
-    justify-content:;
     height:100px;
     box-sizing: border-box;
     align-items: center;
@@ -173,7 +172,6 @@ height: 50px;
 #foodsBg > div ul> li{
     color: black;
     line-height: 20px;
-    background-color: 
 }
 
 #foodsBg >div {
@@ -188,6 +186,10 @@ margin-bottom: 5%;
     list-style: none;
     width:100%;
     justify-content: space-around;
+}
+nav li{
+background-color: teal;
+
 }
 #p1, #p2, #p3{
    width:30%
@@ -204,23 +206,27 @@ text-align: left;
 }
 .customerAbout{
     display: flex;
-    justify-content: space-around;
+    justify-content: baseline;
     box-shadow: 0 0 3px gray;
     width: 90%;
     margin: 10px auto;
-    padding: 2px 2%;
+    
     
 }
 .about{
- 
+    
     text-align:right;
-    width:100%;
-    border
+    width:50%;
+    border:1px solid gray;
 }
 .customerAbout  h4{
     color:tomato;
     text-align: center;
     
+}
+#customerSection{
+    border: 1px solid gray;
+    width:50%;
 }
 .subscribe{
     background-image: url(./assets/backgrounds/subscribe.jpg);
@@ -230,7 +236,7 @@ text-align: left;
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;;
+    align-items: center;
     
 }
 .subscribe >div >p:first-child{
