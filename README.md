@@ -18,11 +18,11 @@ To access this project on your local files, you can clone it using these steps
 1. CSS
 1. Git
 ### Live Site
-View [live] https://github.com/kelvinrono/Anitas-Kitchen
+View [live] https://kelvinrono.github.io/first-project/
 ### Licence
 This project is under the  [MIT](LICENSE) licence
 MIT License
-Copyright (c) 2021 (your name)
+Copyright (c) 2021 (Cheruiyot Kelvin)
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
